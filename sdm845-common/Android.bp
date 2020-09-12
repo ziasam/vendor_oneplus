@@ -21,6 +21,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
 	name: "libantradio",
+        check_elf_files: false,
 	owner: "oneplus",
 	strip: {
 		none: true,
